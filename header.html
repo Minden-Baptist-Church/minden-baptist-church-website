@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Website Title -->
+  <title>Minden Baptist Church</title>
+
+  <!-- Website Description -->
+  <meta content="Minden Baptist is a contemporary, friendly and family oriented congregation with ministries to all demographics." name="description">
+
+  <!-- Website Keywords -->
+  <meta content="church, churches, church minden, church near me, churches in minden" name="keywords">
+
+  <!-- Website Thumbnail -->
+  <meta content="assets/img/favicon.png" name="thumbnail">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Source+Sans+Pro:ital,wght@0,200;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+  <!-- Local CSS Files  -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/froala_blocks.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+<!-- Navbar -->
+<header>
+  <div class="container">
+    <nav class="navbar navbar-expand-md no-gutters">
+      <div class="col-2 text-left">
+        <a href="/index.html">
+          <img src="./assets/img/navlogo.png" height="80" alt="image">
+        </a>
+      </div>
+
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav4" style="background: white;" aria-controls="navbarNav4" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon" onclick="openNav()"></span>
+      </button>
+
+      <div class="collapse navbar-collapse justify-content-center col-md-8" id="navbarNav4">
+        <ul class="navbar-nav justify-content-center">
+          <li class="nav-item">
+            <a class="nav-link text-uppercase font-weight-bold underline" href="/about.html">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase font-weight-bold underline" href="/services.html">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase font-weight-bold underline" href="/ministries.html">Ministries</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase font-weight-bold underline" href="https://live.mindenbaptist.org/">Online</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-uppercase font-weight-bold underline" href="https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU">Tithe</a>
+          </li>
+        </ul>
+      </div>
+
+      <ul class="navbar-nav col-2 justify-content-end d-none d-md-flex">
+        <li class="nav-item">
+          <a class="nav-link underline" href="https://www.facebook.com/mindenbaptistchurch"><i class="fa fa-facebook"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA"><i class="fa fa-youtube"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="https://www.instagram.com/valleyyouth/"><i class="fa fa-instagram"></i></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link underline" href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"><i class="fa fa-map-marker"></i></a>
+        </li>
+        <li>
+          <a class="nav-link underline" href="mailto:office@mindenbaptist.org"><i class="fa fa-envelope"></i></a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<!-- End Navbar -->
+
+<!-- Mobile Full Screen Menu -->
+<div id="myNav" class="overlay">
+
+  <!-- Close Mobile Full Screen Menu -->
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+
+  <!-- Mobile Full Screen Menu Content -->
+  <div class="overlay-content">
+    <a class="nav-link text-uppercase font-weight-bold underline" href="/about.html">About</a>
+    <a class="nav-link text-uppercase font-weight-bold underline" href="/services.html">Services</a>
+    <a class="nav-link text-uppercase font-weight-bold underline" href="/ministries.html">Ministries</a>
+    <a class="nav-link text-uppercase font-weight-bold underline" href="https://live.mindenbaptist.org/">Online</a>
+    <a class="nav-link text-uppercase font-weight-bold underline" href="https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU">Tithe</a>
+  </div>
+</div>
+
+<!-- Mobile Full Screen JS -->
+<script>
+  function openNav() {
+    document.getElementById("myNav").style.width = "100%";
+  }
+  
+  function closeNav() {
+    document.getElementById("myNav").style.width = "0%";
+  }
+</script>
+
+<!-- Scroll to Top Button -->
+<button onclick="topFunction()" id="return" title="Go to top"><i class="fa fa-chevron-up"></i></button>
+
+<script>
+  mybutton = document.getElementById("return");
+  
+  // When the user scrolls down 120px from the top of the document, show the button
+  window.onscroll = function() {scrollFunction()};
+  
+  function scrollFunction() {
+    if (document.body.scrollTop > 120 || document.documentElement.scrollTop > 20) {
+      mybutton.style.display = "block";
+    } else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  } 
+</script>
+
+</body>
