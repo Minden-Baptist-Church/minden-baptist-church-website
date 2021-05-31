@@ -1,9 +1,8 @@
 {
-  "name": "gatsby-starter-hello-world",
+  "name": "minden-baptist-church-website",
   "private": true,
-  "description": "A simplified bare-bones starter for Gatsby",
-  "version": "0.1.0",
-  "license": "0BSD",
+  "description": "Minden Baptist is a contemporary, friendly and family oriented congregation with ministries to all demographics.",
+  "version": "1.1",
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
@@ -42,9 +41,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gatsbyjs/gatsby-starter-hello-world"
+    "url": "https://github.com/zpuckeridge/minden-baptist-church-website"
   },
   "bugs": {
-    "url": "https://github.com/gatsbyjs/gatsby/issues"
+    "url": "https://github.com/zpuckeridge/minden-baptist-church-website/issues"
   }
 }

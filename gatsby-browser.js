@@ -1,5 +1,5 @@
 // Default Styles
-import 'bootstrap/dist/css/bootstrap.min.css'
+import "bootstrap/dist/css/bootstrap.min.css"
 import "./src/styles/froala_blocks.css"
 
 // Custom CSS Styles

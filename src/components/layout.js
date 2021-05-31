@@ -180,7 +180,10 @@ const Layout = ({ children }) => {
                 >
                   <FontAwesomeIcon icon={faMapMarker} size="1x" />
                 </Link>
-                <Link href="mailto:office@mindenbaptist.org" className="mx-2 link">
+                <Link
+                  href="mailto:office@mindenbaptist.org"
+                  className="mx-2 link"
+                >
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
                 </Link>
               </p>
