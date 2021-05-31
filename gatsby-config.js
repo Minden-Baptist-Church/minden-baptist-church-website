@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/",
   siteMetadata: {
     title: `Minden Baptist Church`,
     author: {
@@ -10,6 +9,13 @@ module.exports = {
     siteUrl: `https://mindenbaptist.org/`,
   },
   plugins: [
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `pages`,
+        path: `${__dirname}/src/pages/`,
+      },
+    },
     {
       resolve: `gatsby-plugin-google-fonts`,
       options: {
@@ -29,7 +35,6 @@ module.exports = {
     `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
-    `gatsby-transformer-sharp`,
     `gatsby-plugin-sitemap`,
     `gatsby-remark-social-cards`,
   ],
