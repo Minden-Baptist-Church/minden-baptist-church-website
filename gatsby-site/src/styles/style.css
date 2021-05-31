@@ -1,0 +1,252 @@
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
+
+.underline{
+  position: relative;
+}
+
+.underline::before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  width: 0;
+  height: 2px;
+  background-color: white;
+  transition: width 0.6s cubic-bezier(0.25, 1, 0.5, 1);
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .underline:hover::before{
+    left: 0;
+    right: auto;
+    width: 100%;
+  }
+}
+
+/* Header Image */
+#header-background {
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../../static/church.jpg");
+  position: center;
+  background-size: cover;
+  background-position: center center; 
+  background-attachment: fixed;
+  height: 100%;
+}
+
+#header-background-light {
+  background: black;
+}
+
+/* Hero Section */
+#hero {
+  width: 100%;
+  height: 60%;
+}
+
+#hero .hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  text-align: center;
+  margin: 175px 100px 300px 100px;
+}
+
+#hero .hero-logo {
+  margin-bottom: 30px;
+}
+
+#hero h1 {
+  margin: 0 0 30px 0;
+  font-size: 50px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#hero h2 {
+  margin: 0 0 30px 0;
+  font-size: 20px;
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  letter-spacing: 2px;
+  color: white;
+}
+
+#hero .come-along {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 16px 31px;
+  border-radius: 28px;
+  border:2px solid white;
+  transition: 0.5s;
+  margin: 10px;
+  color: black;
+  background: white;
+}
+
+#hero .come-along:hover {
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+#hero .watch-online {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 16px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 16px 24px;
+  border-radius: 28px;
+  border:2px solid white;
+  transition: 0.5s;
+  margin: 10px;
+  color: black;
+  background: white;
+}
+
+#hero .watch-online:hover {
+  background: transparent;
+  color: white;
+  text-decoration: none;
+}
+
+@media (min-width: 1024px) {
+  #hero {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #hero h2 {
+    line-height: 22px;
+  }
+}
+
+/* Site Notice */
+#notice {
+  width: 100%;
+  padding: 15px 15px;
+  background: #00a95d;
+}
+
+#notice .notice-container {
+  text-align: center;
+  vertical-align: center;
+}
+
+#notice a {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+}
+
+/* Work in Progress Notice */
+#wip {
+  width: 100%;
+  padding: 20px 10px;
+  background: #ffde14;
+}
+
+#wip .wip-container {
+  text-align: center;
+  vertical-align: center;
+}
+
+#wip a {
+  font-family: "Montserrat";
+  font-size: 20px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  letter-spacing: 0.5px;
+  color: white;
+  text-decoration: none;
+}
+
+/* About Us Custom Buttons */
+#get-directions {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 16px 31px;
+  border-radius: 28px;
+  border:2px solid black;
+  transition: 0.5s;
+  color: black;
+  background: white;
+}
+
+#get-directions:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+#about-us {
+  font-family: "Montserrat";
+  text-transform: uppercase;
+  font-weight: 900;
+  font-size: 13px;
+  letter-spacing: 2px;
+  display: inline-block;
+  padding: 16px 24px;
+  border-radius: 28px;
+  border:2px solid black;
+  transition: 0.5s;
+  margin: 10px;
+  color: black;
+  background: white;
+}
+
+#about-us:hover {
+  background: black;
+  color: white;
+  text-decoration: none;
+}
+
+/* Back to Top Function */
+#return {
+  display: none; /* Hidden by default */
+  position: fixed; /* Fixed/sticky position */
+  bottom: 20px; /* Place the button at the bottom of the page */
+  right: 30px; /* Place the button 30px from the right */
+  z-index: 99; /* Make sure it does not overlap */
+  border: none;
+  outline: none; /* Remove outline */
+  background-color: black; /* Set a background color */
+  color: white; /* Text color */
+  cursor: pointer; /* Add a mouse pointer on hover */
+  width: 50px;
+  height: 50px;
+  border-radius: 50px; /* Rounded corners */
+  font-size: 20px; /* Increase font size */
+  transition: 0.5s;
+}
+
+#return:hover {
+  background-color: white; /* Add a dark-grey background on hover */
+  color: black;
+  transition: 0.5s;
+}
