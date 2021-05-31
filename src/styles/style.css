@@ -4,7 +4,7 @@
 
 /* Header Image */
 #header-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url("../../static/church.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5));
   position: center;
   background-size: cover;
   background-position: center center; 
