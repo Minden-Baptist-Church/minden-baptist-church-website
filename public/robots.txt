@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://mindenbaptist.org/sitemap.xml
-Host: https://mindenbaptist.org
