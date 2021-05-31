@@ -112,7 +112,7 @@ const Ministries = () => {
                     Jesus.
                   </p>
                   <p>
-                    <Link href="/valley-kids">
+                    <Link href="/valley-kidz">
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
