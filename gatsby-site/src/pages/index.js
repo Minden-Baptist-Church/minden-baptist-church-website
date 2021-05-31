@@ -50,7 +50,6 @@ export default function Home() {
                 </div>
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
                   <StaticImage
-                    layout="fixed"
                     quality={100}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     alt="bible"
@@ -67,7 +66,6 @@ export default function Home() {
               <div className="row align-items-center">
                 <div className="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
                   <StaticImage
-                    layout="fixed"
                     quality={100}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     alt="chatting"
@@ -82,7 +80,7 @@ export default function Home() {
                     instead!
                   </p>
                   <Link
-                    className="btn btn-primary mt-4 mb-5 mb-md-0"
+                    className="custom-button mt-4 mb-5 mb-md-0"
                     href="https://live.mindenbaptist.org/"
                   >
                     Watch
@@ -103,7 +101,7 @@ export default function Home() {
                   </p>
                   <p className="mt-5 mt-sm-4">
                     <Link
-                      className="btn btn-primary"
+                      className="custom-button"
                       href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos"
                     >
                       Listen
@@ -112,7 +110,6 @@ export default function Home() {
                 </div>
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
                   <StaticImage
-                    layout="fixed"
                     quality={100}
                     formats={["AUTO", "WEBP", "AVIF"]}
                     alt="headphones"
@@ -135,7 +132,7 @@ export default function Home() {
                     Minden Baptist Church, it's values, history and beliefs.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/about">
+                    <Link className="custom-button" href="/about">
                       Discover
                     </Link>
                   </p>
@@ -154,7 +151,7 @@ export default function Home() {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/ministries">
+                    <Link className="custom-button" href="/ministries">
                       Learn More
                     </Link>
                   </p>

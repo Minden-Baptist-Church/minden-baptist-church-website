@@ -5752,6 +5752,11 @@ gatsby-plugin-fontawesome-css@^1.1.0:
   resolved "https://registry.yarnpkg.com/gatsby-plugin-fontawesome-css/-/gatsby-plugin-fontawesome-css-1.1.0.tgz#bd3d38215fa38136b4cc1d2adeae765170c7cfd8"
   integrity sha512-7rAiOpTXtkLjHCrASY9Bmvq4c3UFDqj2ZZPuKTyRgK92+tL675tAIlSU5Rjv8HfftNWIkmFKm8uJF3EPT+OpBA==
 
+gatsby-plugin-google-fonts@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-google-fonts/-/gatsby-plugin-google-fonts-1.0.1.tgz#d71054f7bf207b9a8da227380369e18e6f4e0201"
+  integrity sha512-p1NVkn27GUnDA5qHM+Z4cCcLCJIardzZXMon3640sT4xuL/AZJbsx3HEt2KY/5oZu0UXIkytkxzV2Da4rQeUIg==
+
 gatsby-plugin-image@^1.6.0:
   version "1.6.0"
   resolved "https://registry.yarnpkg.com/gatsby-plugin-image/-/gatsby-plugin-image-1.6.0.tgz#a6b2ed58179475d2f92c374af2f946d9f0aea784"
