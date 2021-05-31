@@ -24,11 +24,10 @@ const Layout = ({ children }) => {
         <div className="container">
           <nav className="navbar navbar-expand-md no-gutters">
             <div className="col-2 text-left">
-              <Link href="/index.html">
+              <Link href="/">
                 <StaticImage
-                  layout="fixed"
+                  placeholder="blurred"
                   quality={100}
-                  formats={["AUTO", "WEBP", "AVIF"]}
                   src="../../static/logo.png"
                   height="80"
                   alt="logo"

@@ -1,4 +1,5 @@
 module.exports = {
+  pathPrefix: "/",
   siteMetadata: {
     title: `Minden Baptist Church`,
     author: {
@@ -16,9 +17,20 @@ module.exports = {
         display: "swap",
       },
     },
+    {
+      resolve: "gatsby-plugin-robots-txt",
+      options: {
+        host: "https://zacchary.me",
+        sitemap: "https://zacchary.me/sitemap.xml",
+        policy: [{ userAgent: "*", allow: "/" }],
+      },
+    },
+    `gatsby-plugin-react-helmet`,
+    `gatsby-plugin-fontawesome-css`,
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-transformer-sharp`,
-    `gatsby-plugin-fontawesome-css`,
+    `gatsby-plugin-sitemap`,
+    `gatsby-remark-social-cards`,
   ],
 }

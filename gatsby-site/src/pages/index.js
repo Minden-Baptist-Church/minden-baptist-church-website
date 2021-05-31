@@ -1,16 +1,18 @@
-import React from "react"
+import * as React from "react"
 
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
 import Notice from "../components/notice"
+import Seo from "../components/seo"
 
 export default function Home() {
   return (
     <>
       <div id="header-background">
         <Layout>
+          <Seo title="Home" />
           <section id="hero">
             <div className="hero-container">
               <h1>
@@ -50,8 +52,8 @@ export default function Home() {
                 </div>
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
                   <StaticImage
-                    quality={100}
-                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    placeholder="blurred"
                     alt="bible"
                     className="img-fluid"
                     src="../../static/bible.jpg"
@@ -66,8 +68,8 @@ export default function Home() {
               <div className="row align-items-center">
                 <div className="col-10 col-sm-6 m-auto col-md-4 pb-4 pb-md-0">
                   <StaticImage
-                    quality={100}
-                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    placeholder="blurred"
                     alt="chatting"
                     className="img-fluid rounded-0"
                     src="../../static/chatting.svg"
@@ -80,7 +82,7 @@ export default function Home() {
                     instead!
                   </p>
                   <Link
-                    className="custom-button mt-4 mb-5 mb-md-0"
+                    className="btn btn-primary mt-4 mb-5 mb-md-0"
                     href="https://live.mindenbaptist.org/"
                   >
                     Watch
@@ -101,7 +103,7 @@ export default function Home() {
                   </p>
                   <p className="mt-5 mt-sm-4">
                     <Link
-                      className="custom-button"
+                      className="btn btn-primary"
                       href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos"
                     >
                       Listen
@@ -110,8 +112,8 @@ export default function Home() {
                 </div>
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
                   <StaticImage
-                    quality={100}
-                    formats={["AUTO", "WEBP", "AVIF"]}
+                    quality={80}
+                    placeholder="blurred"
                     alt="headphones"
                     className="img-fluid"
                     src="../../static/headphones.svg"
@@ -132,7 +134,7 @@ export default function Home() {
                     Minden Baptist Church, it's values, history and beliefs.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="custom-button" href="/about">
+                    <Link className="btn btn-primary" href="/about">
                       Discover
                     </Link>
                   </p>
@@ -151,7 +153,7 @@ export default function Home() {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="custom-button" href="/ministries">
+                    <Link className="btn btn-primary" href="/ministries">
                       Learn More
                     </Link>
                   </p>
