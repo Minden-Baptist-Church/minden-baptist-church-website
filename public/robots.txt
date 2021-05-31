@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
-Sitemap: https://zacchary.me/sitemap.xml
-Host: https://zacchary.me
+Sitemap: https://mindenbaptist.org/sitemap.xml
+Host: https://mindenbaptist.org

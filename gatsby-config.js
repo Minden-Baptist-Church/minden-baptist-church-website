@@ -26,8 +26,8 @@ module.exports = {
     {
       resolve: "gatsby-plugin-robots-txt",
       options: {
-        host: "https://zacchary.me",
-        sitemap: "https://zacchary.me/sitemap.xml",
+        host: "https://mindenbaptist.org",
+        sitemap: "https://mindenbaptist.org/sitemap.xml",
         policy: [{ userAgent: "*", allow: "/" }],
       },
     },
@@ -36,6 +36,5 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
-    `gatsby-remark-social-cards`,
   ],
 }
