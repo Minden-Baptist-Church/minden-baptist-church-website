@@ -4,6 +4,7 @@
   box-sizing: border-box; }
 
 html {
+  background-color: #212529;
   font-family: 'Montserrat', sans-serif;
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -1267,7 +1268,9 @@ header {
   header .navbar-nav .active a.nav-link {
     color: #444444; }
   header .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); }
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E"); 
+    color: white;
+  }
   header.bg-dark .navbar-nav a.nav-link {
     color: #dcdcdc; }
     header.bg-dark .navbar-nav a.nav-link:hover {

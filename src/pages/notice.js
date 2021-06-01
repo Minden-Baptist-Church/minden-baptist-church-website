@@ -13,8 +13,7 @@ const Notice = () => {
             <div className="container">
               <div className="row">
                 <div className="col text-left">
-                  <h1>COVID-19 Updates</h1>
-                  <h3>Current Status:</h3>
+                  <h1>COVID-19 Update</h1>
                   <p className="lead">
                     Minden Baptist Church is following the Queensland Government
                     Stage 3 Road Map Compliance and is resuming it's Sunday

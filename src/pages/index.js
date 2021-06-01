@@ -18,7 +18,8 @@ export default function Home() {
               <h1>
                 <strong>Minden Baptist Church</strong>
               </h1>
-              <h2>Join us this Sunday from 9:30AM | 978 Lowood-Minden Road</h2>
+              <h2>Join us this Sunday from 9:30AM</h2>
+              <h2>978 Lowood-Minden Road</h2>
               <div>
                 <Link
                   className="come-along text-uppercase font-weight-bold"
@@ -47,6 +48,9 @@ export default function Home() {
                   <p className="lead">
                     Minden Baptist is a contemporary, friendly and family
                     oriented congregation with ministries to all demographics.
+                  </p>
+                  <p className="lead">
+                    {" "}
                     We look forward to connecting with you! We hope you have a
                     warm and enjoyable experience as we worship and fellowship
                     in Christ together.
@@ -117,6 +121,8 @@ export default function Home() {
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
                   <StaticImage
                     quality={80}
+                    height={300}
+                    width={300}
                     placeholder="blurred"
                     alt="headphones"
                     className="img-fluid"
@@ -138,7 +144,11 @@ export default function Home() {
                     Minden Baptist Church, it's values, history and beliefs.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" to={`/about/`} title={`About`}>
+                    <Link
+                      className="btn btn-primary"
+                      to={`/about/`}
+                      title={`About`}
+                    >
                       Discover
                     </Link>
                   </p>
@@ -157,7 +167,11 @@ export default function Home() {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" to={`/ministries/`} title={`Ministries`}>
+                    <Link
+                      className="btn btn-primary"
+                      to={`/ministries/`}
+                      title={`Ministries`}
+                    >
                       View Ministries
                     </Link>
                   </p>

@@ -4,10 +4,11 @@
 
 /* Header Image */
 #header-background {
-  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)), url(../../static/church.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.75), rgba(0, 0, 0, 0.5)),
+    url(../../static/church.jpg);
   position: center;
   background-size: cover;
-  background-position: center center; 
+  background-position: center center;
   background-attachment: fixed;
   height: 100%;
 }
@@ -15,7 +16,7 @@
 /* Hero Section */
 #hero {
   width: 100%;
-  height: 60%;
+  height: 100%;
 }
 
 #hero .hero-container {
@@ -24,7 +25,8 @@
   align-items: center;
   flex-direction: column;
   text-align: center;
-  margin: 175px 100px 300px 100px;
+  margin-top: 20vh;
+  margin-bottom: 25vh;
 }
 
 #hero .hero-logo {
@@ -60,7 +62,7 @@
   display: inline-block;
   padding: 16px 31px;
   border-radius: 28px;
-  border:2px solid white;
+  border: 2px solid white;
   transition: 0.5s;
   margin: 10px;
   color: black;
@@ -82,7 +84,7 @@
   display: inline-block;
   padding: 16px 24px;
   border-radius: 28px;
-  border:2px solid white;
+  border: 2px solid white;
   transition: 0.5s;
   margin: 10px;
   color: black;
@@ -123,7 +125,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 7vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
 
 .notice a {
@@ -149,7 +152,7 @@
   display: inline-block;
   padding: 16px 31px;
   border-radius: 28px;
-  border:2px solid black;
+  border: 2px solid black;
   transition: 0.5s;
   color: black;
   background: white;
@@ -170,7 +173,7 @@
   display: inline-block;
   padding: 16px 24px;
   border-radius: 28px;
-  border:2px solid black;
+  border: 2px solid black;
   transition: 0.5s;
   margin: 10px;
   color: black;
@@ -197,4 +200,157 @@
 
 .link:hover {
   color: #dcdcdc;
+}
+
+.nav-item {
+  font-weight: 700;
+}
+
+.margin-right {
+  margin-right: 100px;
+}
+
+/* Mobile Navigation */
+.nav-mobile {
+  background: transparent;
+  color: white;
+  position: relative;
+  width: 100%;
+  z-index: 9999;
+}
+
+/*** INPUT ***/
+.nav-mobile input {
+  opacity: 0;
+  position: absolute;
+  z-index: -1;
+}
+
+/*** LABEL ***/
+.nav-mobile label {
+  cursor: pointer;
+  display: block;
+  padding: 0.5em;
+}
+
+/* Hamburger Icon */
+#menu-icon,
+#menu-icon:before,
+#menu-icon:after {
+  background: white;
+  border-radius: 0.05em;
+  height: 0.2em;
+  transition: all 0.2s ease-in-out;
+  width: 100%;
+}
+
+#menu-icon {
+  display: inline-block;
+  margin-top: 40px;
+  max-width: 2em;
+  position: relative;
+}
+
+.nav-mobile label #menu-icon {
+  float: right;
+}
+
+#menu-icon:before,
+#menu-icon:after {
+  content: "";
+  left: 0;
+  position: absolute;
+}
+
+#menu-icon:before {
+  top: -0.4em;
+}
+
+#menu-icon:after {
+  bottom: -0.4em;
+}
+
+/* Close Icon */
+.nav-mobile input[type="checkbox"]:checked + label #menu-icon {
+  background: transparent;
+}
+
+.nav-mobile input[type="checkbox"]:checked + label #menu-icon:before {
+  top: 0;
+  transform: rotate(-45deg);
+}
+
+.nav-mobile input[type="checkbox"]:checked + label #menu-icon:after {
+  bottom: 0;
+  transform: rotate(45deg);
+}
+
+/*** MENU ***/
+/* Overlay */
+.nav-mobile input:checked ~ #overlay {
+  background: rgba(0, 0, 0, 0.8);
+  bottom: 0;
+  left: 0;
+  position: fixed;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+/* List */
+.nav-mobile ul {
+  font-size: 1.5em;
+  list-style: none;
+  margin: 0;
+  max-height: 0;
+  opacity: 0;
+  overflow: hidden;
+  padding: 0;
+  text-align: center;
+}
+
+.nav-mobile input:checked ~ ul {
+  margin: 1em;
+  max-height: inherit;
+  opacity: 1;
+}
+
+.nav-mobile ul > li {
+  margin: 0.5em 0;
+}
+
+.nav-mobile ul a {
+  color: white;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.nav-mobile ul a:hover {
+  text-decoration: underline;
+}
+
+/* Social Media */
+.nav-mobile ul#social-media > li {
+  display: inline-block;
+  font-size: 1.5em;
+  margin: 0.5em;
+}
+
+/* Desktop/Mobile Only */
+#content-desktop {
+  
+}
+
+#content-mobile {
+  display: none;
+}
+
+@media screen and (max-width: 768px) {
+  #content-desktop {
+    display: none;
+  }
+
+  #content-mobile {
+    display: block;
+  }
 }

@@ -22,7 +22,10 @@ const Layout = ({ children }) => {
     <>
       <header>
         <div className="container">
-          <nav className="navbar navbar-expand-md no-gutters">
+          <nav
+            id="content-desktop"
+            className="navbar navbar-expand-md no-gutters"
+          >
             <div className="col-2 text-left">
               <Link to={`/`} title={`Home`}>
                 <StaticImage
@@ -144,6 +147,54 @@ const Layout = ({ children }) => {
                 </Link>
               </li>
             </ul>
+          </nav>
+
+          <nav id="content-mobile" className="nav-mobile">
+            <div className="container">
+              <input id="responsive-menu" type="checkbox" />
+              <label for="responsive-menu">
+              <Link to={`/`} title={`Home`}>
+                <StaticImage
+                  placeholder="blurred"
+                  quality={100}
+                  src="../../static/logo.png"
+                  height="80"
+                  alt="logo"
+                />
+              </Link> <span id="menu-icon"></span>
+              </label>
+              <div id="overlay"></div>
+              <ul>
+                <li>
+                  <Link to={`/about/`} title={`About`}>
+                    About
+                  </Link>
+                </li>
+                <li>
+                  <Link to={`/services/`} title={`Services`}>
+                    Services
+                  </Link>
+                </li>
+                <li>
+                  <Link to={`/ministries/`} title={`Ministries`}>
+                    Ministries
+                  </Link>
+                </li>
+                <li>
+                  <Link to={`https://live.mindenbaptist.org/`} title={`Online`}>
+                    Online
+                  </Link>
+                </li>
+                <li>
+                  <Link
+                    to={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
+                    title={`Tithe`}
+                  >
+                    Tithe
+                  </Link>
+                </li>
+              </ul>
+            </div>
           </nav>
         </div>
       </header>

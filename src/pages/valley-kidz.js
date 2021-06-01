@@ -25,6 +25,7 @@ const ValleyKidz = () => {
             </div>
           </section>
           <Notice />
+          <section className="fdb-block">
           <div className="container">
             <div className="row align-items-center">
               <div className="col-12 col-md-6 col-lg-5">
@@ -46,6 +47,7 @@ const ValleyKidz = () => {
               </div>
             </div>
           </div>
+          </section>
 
           <section className="fdb-block">
             <div className="container">
