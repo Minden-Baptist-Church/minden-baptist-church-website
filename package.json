@@ -11,7 +11,7 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1",
-    "deploy": "gatsby build && gh-pages -d public"
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@babel/core": "^7.12.3",
@@ -28,6 +28,7 @@
     "gatsby-plugin-fontawesome-css": "^1.1.0",
     "gatsby-plugin-google-fonts": "^1.0.1",
     "gatsby-plugin-image": "^1.6.0",
+    "gatsby-plugin-purgecss": "^6.0.2",
     "gatsby-plugin-react-helmet": "^4.6.0",
     "gatsby-plugin-robots-txt": "^1.6.2",
     "gatsby-plugin-sharp": "^3.6.0",

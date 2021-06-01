@@ -36,5 +36,12 @@ module.exports = {
     `gatsby-plugin-image`,
     `gatsby-plugin-sharp`,
     `gatsby-plugin-sitemap`,
+    {
+      resolve: `gatsby-plugin-purgecss`,
+      options: {
+        printRejected: true,
+        develop: true,
+      },
+    },
   ],
 }
