@@ -152,7 +152,7 @@ const Layout = ({ children }) => {
         <div className="container">
           <div className="row text-center">
             <div className="col">
-              <h3>Minden Baptist Church</h3>
+              <h1>Minden Baptist Church</h1>
               <small>
                 978 Lowood-Minden Road Minden, Queensland, 4311 Australia
                 Interim Pastor: +61 413 616 370

@@ -158,7 +158,7 @@ export default function Home() {
                   </p>
                   <p className="mt-5 mt-sm-4">
                     <Link className="btn btn-primary" to={`/ministries/`} title={`Ministries`}>
-                      Learn More
+                      View Ministries
                     </Link>
                   </p>
                 </div>
