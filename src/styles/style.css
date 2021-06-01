@@ -354,3 +354,8 @@
     display: block;
   }
 }
+
+.paragraph-text {
+  color: white;
+  size: 16px;
+}

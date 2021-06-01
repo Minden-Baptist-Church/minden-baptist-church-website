@@ -153,15 +153,16 @@ const Layout = ({ children }) => {
             <div className="container">
               <input id="responsive-menu" type="checkbox" />
               <label for="responsive-menu">
-              <Link to={`/`} title={`Home`}>
-                <StaticImage
-                  placeholder="blurred"
-                  quality={100}
-                  src="../../static/logo.png"
-                  height="80"
-                  alt="logo"
-                />
-              </Link> <span id="menu-icon"></span>
+                <Link to={`/`} title={`Home`}>
+                  <StaticImage
+                    placeholder="blurred"
+                    quality={100}
+                    src="../../static/logo.png"
+                    height="80"
+                    alt="logo"
+                  />
+                </Link>{" "}
+                <span id="menu-icon"></span>
               </label>
               <div id="overlay"></div>
               <ul>
@@ -204,10 +205,14 @@ const Layout = ({ children }) => {
           <div className="row text-center">
             <div className="col">
               <h1>Minden Baptist Church</h1>
-              <small>
-                978 Lowood-Minden Road Minden, Queensland, 4311 Australia
-                Interim Pastor: +61 413 616 370
-              </small>
+              <p className="paragraph-text">
+                <div>978 Lowood-Minden Road Minden,</div>
+                <div>Queensland, 4311 Australia</div>
+              </p>
+              <p className="paragraph-text">  
+                <div>Senior Pastor Bruce Eckersley: +61 413 616 370</div>
+                <div>bruce@mindenbaptist.org</div>
+              </p>
             </div>
           </div>
 
@@ -250,9 +255,10 @@ const Layout = ({ children }) => {
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
                 </Link>
               </p>
-              <small>
-                Copyright © 2021 Minden Baptist Church. All Rights Reserved.
-              </small>
+              <p className="paragraph-text">
+              <div>Copyright © 2021 Minden Baptist Church.</div>
+              <div>All Rights Reserved.</div>
+              </p>
               <div>
                 <button className="return" onClick={handleClick}>
                   Back to top ↑
