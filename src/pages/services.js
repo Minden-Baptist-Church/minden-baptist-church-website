@@ -37,14 +37,16 @@ const Services = () => {
                     <Link
                       id="get-directions"
                       className="text-uppercase font-weight-bold"
-                      href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"
+                      to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                      title={`Location`}
                     >
                       <strong>Get Directions</strong>
                     </Link>
                     <Link
                       id="about-us"
                       className="text-uppercase font-weight-bold"
-                      href="/about"
+                      to={`/about/`}
+                      title={`About`}
                     >
                       <strong>About Minden</strong>
                     </Link>
@@ -92,7 +94,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"
+                        to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                        title={`Location`}
                       >
                         <strong>Directions</strong>
                       </Link>
@@ -120,7 +123,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"
+                        to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                        title={`Location`}
                       >
                         <strong>View</strong>
                       </Link>
@@ -148,7 +152,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="/valley-kids"
+                        to={`/valley-kidz/`}
+                        title={`Valley Kidz`}
                       >
                         <strong>Parents</strong>
                       </Link>
@@ -174,7 +179,7 @@ const Services = () => {
                         <strong>Virtual Tour</strong>
                       </h3>
                       <p>Explore our Church Building from home in 360°</p>
-                      <Link className="text-uppercase font-weight-bold" href="">
+                      <Link className="text-uppercase font-weight-bold" to={`/services/`} title={`Services`}>
                         <strong>Explore</strong>
                       </Link>
                     </div>
@@ -200,7 +205,7 @@ const Services = () => {
                         The auditorium and outside areas are wheelchair
                         accessible.
                       </p>
-                      <Link className="text-uppercase font-weight-bold" href="">
+                      <Link className="text-uppercase font-weight-bold" to={`/services/`} title={`Services`}>
                         <strong>How we Care</strong>
                       </Link>
                     </div>
@@ -227,7 +232,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="/valley-kids"
+                        to={`/valley-kidz/`}
+                        title={`Valley Kidz`}
                       >
                         <strong>Learn More</strong>
                       </Link>
@@ -255,7 +261,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="https://live.mindenbaptist.org/"
+                        to={`https://live.mindenbaptist.org/`}
+                        title={`Online`}
                       >
                         <strong>Watch</strong>
                       </Link>
@@ -281,7 +288,8 @@ const Services = () => {
                       <p>Catch up or revisit the sermons online.</p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="https://anchor.fm/minden-baptist-church"
+                        to={`https://anchor.fm/minden-baptist-church`}
+                        title={`Podcasts`}
                       >
                         <strong>Listen</strong>
                       </Link>
@@ -309,7 +317,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        href="/about"
+                        to={`/about/`}
+                        title={`About`}
                       >
                         <strong>Discover</strong>
                       </Link>
@@ -341,7 +350,7 @@ const Services = () => {
                     Minden Baptist Church, it's values, history and beliefs.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/about">
+                    <Link className="btn btn-primary" to={`/about/`} title={`About`}>
                       Discover
                     </Link>
                   </p>
@@ -360,7 +369,7 @@ const Services = () => {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/ministries">
+                    <Link className="btn btn-primary" to={`/ministries/`} title={`Ministries`}>
                       Learn More
                     </Link>
                   </p>

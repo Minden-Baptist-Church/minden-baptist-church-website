@@ -12,10 +12,6 @@
   height: 100%;
 }
 
-#header-background-light {
-  background: black;
-}
-
 /* Hero Section */
 #hero {
   width: 100%;
@@ -141,28 +137,6 @@
 
 .notice a:hover {
   color: white;
-}
-
-/* Work in Progress Notice */
-#wip {
-  width: 100%;
-  padding: 20px 10px;
-  background: #ffde14;
-}
-
-#wip .wip-container {
-  text-align: center;
-  vertical-align: center;
-}
-
-#wip a {
-  font-family: "Montserrat";
-  font-size: 20px;
-  font-family: "Montserrat";
-  font-weight: 700;
-  letter-spacing: 0.5px;
-  color: white;
-  text-decoration: none;
 }
 
 /* About Us Custom Buttons */

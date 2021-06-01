@@ -7,7 +7,7 @@ const Notice = () => {
     <>
       <div className="notice">
         <div className="notice-container">
-          <Link href="/notice">
+          <Link to={`/notice/`} title={`Notice`}>
             <strong>COVID-19 Update:</strong> Learn more about how Minden is
             handling the current health crisis.
           </Link>

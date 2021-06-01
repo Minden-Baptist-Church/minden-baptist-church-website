@@ -52,7 +52,7 @@ const About = () => {
                     connect with God.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/services">
+                    <Link className="btn btn-primary" to={`/services/`} title={`Services`}>
                       Service Details
                     </Link>
                   </p>
@@ -320,7 +320,7 @@ const About = () => {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/ministries">
+                    <Link className="btn btn-primary" to={`/ministries/`} title={`Ministries`}>
                       Learn More
                     </Link>
                   </p>

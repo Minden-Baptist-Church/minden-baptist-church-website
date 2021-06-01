@@ -24,7 +24,7 @@ const Layout = ({ children }) => {
         <div className="container">
           <nav className="navbar navbar-expand-md no-gutters">
             <div className="col-2 text-left">
-              <Link href="/">
+              <Link to={`/`} title={`Home`}>
                 <StaticImage
                   placeholder="blurred"
                   quality={100}
@@ -34,7 +34,6 @@ const Layout = ({ children }) => {
                 />
               </Link>
             </div>
-
             <button
               className="navbar-toggler"
               type="button"
@@ -46,7 +45,6 @@ const Layout = ({ children }) => {
             >
               <span className="navbar-toggler-icon"></span>
             </button>
-
             <div
               className="collapse navbar-collapse justify-content-center col-md-8"
               id="navbarNav4"
@@ -55,7 +53,8 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link text-uppercase font-weight-bold"
-                    href="/about"
+                    to={`/about/`}
+                    title={`About`}
                   >
                     About
                   </Link>
@@ -63,7 +62,8 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link text-uppercase font-weight-bold"
-                    href="/services"
+                    to={`/services/`}
+                    title={`Services`}
                   >
                     Services
                   </Link>
@@ -71,7 +71,8 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link text-uppercase font-weight-bold"
-                    href="/ministries"
+                    to={`/ministries/`}
+                    title={`Ministries`}
                   >
                     Ministries
                   </Link>
@@ -79,7 +80,8 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link text-uppercase font-weight-bold"
-                    href="https://live.mindenbaptist.org/"
+                    to={`https://live.mindenbaptist.org/`}
+                    title={`Online`}
                   >
                     Online
                   </Link>
@@ -87,19 +89,20 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <Link
                     className="nav-link text-uppercase font-weight-bold"
-                    href="https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU"
+                    to={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
+                    title={`Tithe`}
                   >
                     Tithe
                   </Link>
                 </li>
               </ul>
             </div>
-
             <ul className="navbar-nav col-2 justify-content-end d-none d-md-flex">
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  href="https://www.facebook.com/mindenbaptistchurch"
+                  to={`https://www.facebook.com/mindenbaptistchurch`}
+                  title={`Facebook`}
                 >
                   <FontAwesomeIcon icon={faFacebook} size="1x" />
                 </Link>
@@ -107,7 +110,8 @@ const Layout = ({ children }) => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA"
+                  to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
+                  title={`YouTube`}
                 >
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </Link>
@@ -115,7 +119,8 @@ const Layout = ({ children }) => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  href="https://www.instagram.com/valleyyouth/"
+                  to={`https://www.instagram.com/valleyyouth/`}
+                  title={`Instagram`}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </Link>
@@ -123,7 +128,8 @@ const Layout = ({ children }) => {
               <li className="nav-item">
                 <Link
                   className="nav-link"
-                  href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"
+                  to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                  title={`Location`}
                 >
                   <FontAwesomeIcon icon={faMapMarker} size="1x" />
                 </Link>
@@ -131,7 +137,8 @@ const Layout = ({ children }) => {
               <li>
                 <Link
                   className="nav-link"
-                  href="mailto:office@mindenbaptist.org"
+                  to={`mailto:office@mindenbaptist.org`}
+                  title={`Email`}
                 >
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
                 </Link>
@@ -146,10 +153,10 @@ const Layout = ({ children }) => {
           <div className="row text-center">
             <div className="col">
               <h3>Minden Baptist Church</h3>
-              <Link>
+              <small>
                 978 Lowood-Minden Road Minden, Queensland, 4311 Australia
                 Interim Pastor: +61 413 616 370
-              </Link>
+              </small>
             </div>
           </div>
 
@@ -157,39 +164,44 @@ const Layout = ({ children }) => {
             <div className="col text-center">
               <p className="lead">
                 <Link
-                  href="https://www.facebook.com/mindenbaptistchurch"
+                  to={`https://www.facebook.com/mindenbaptistchurch`}
                   className="mx-2 link"
+                  title={`Facebook`}
                 >
                   <FontAwesomeIcon icon={faFacebook} size="1x" />
                 </Link>
                 <Link
-                  href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA"
+                  to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
                   className="mx-2 link"
+                  title={`YouTube`}
                 >
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </Link>
                 <Link
-                  href="https://www.instagram.com/valleyyouth/"
+                  to={`https://www.instagram.com/valleyyouth/`}
                   className="mx-2 link"
+                  title={`Instagram`}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </Link>
                 <Link
-                  href="https://goo.gl/maps/A5SCdgxuEL3utUqT9"
+                  to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                   className="mx-2 link"
+                  title={`Location`}
                 >
                   <FontAwesomeIcon icon={faMapMarker} size="1x" />
                 </Link>
                 <Link
-                  href="mailto:office@mindenbaptist.org"
+                  to={`mailto:office@mindenbaptist.org`}
                   className="mx-2 link"
+                  title={`Email`}
                 >
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
                 </Link>
               </p>
-              <Link>
-                Copyright © 2020 Minden Baptist Church. All Rights Reserved.
-              </Link>
+              <small>
+                Copyright © 2021 Minden Baptist Church. All Rights Reserved.
+              </small>
               <div>
                 <button className="return" onClick={handleClick}>
                   Back to top ↑

@@ -22,13 +22,15 @@ export default function Home() {
               <div>
                 <Link
                   className="come-along text-uppercase font-weight-bold"
-                  href="/services"
+                  to={`/services`}
+                  title={`Services`}
                 >
                   <strong>Come Along</strong>
                 </Link>
                 <Link
                   className="watch-online text-uppercase font-weight-bold"
-                  href="https://live.mindenbaptist.org/"
+                  to={`https://live.mindenbaptist.org/`}
+                  title={`Online`}
                 >
                   <strong>Watch Online</strong>
                 </Link>
@@ -83,7 +85,8 @@ export default function Home() {
                   </p>
                   <Link
                     className="btn btn-primary mt-4 mb-5 mb-md-0"
-                    href="https://live.mindenbaptist.org/"
+                    to={`https://live.mindenbaptist.org/`}
+                    title={`Online`}
                   >
                     Watch
                   </Link>
@@ -104,7 +107,8 @@ export default function Home() {
                   <p className="mt-5 mt-sm-4">
                     <Link
                       className="btn btn-primary"
-                      href="https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos"
+                      to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos`}
+                      title={`YouTube`}
                     >
                       Listen
                     </Link>
@@ -134,7 +138,7 @@ export default function Home() {
                     Minden Baptist Church, it's values, history and beliefs.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/about">
+                    <Link className="btn btn-primary" to={`/about/`} title={`About`}>
                       Discover
                     </Link>
                   </p>
@@ -153,7 +157,7 @@ export default function Home() {
                     involved and explore what God can do through you.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link className="btn btn-primary" href="/ministries">
+                    <Link className="btn btn-primary" to={`/ministries/`} title={`Ministries`}>
                       Learn More
                     </Link>
                   </p>

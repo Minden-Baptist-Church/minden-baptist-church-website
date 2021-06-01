@@ -110,7 +110,8 @@ const ValleyYouth = () => {
                   <p className="mt-5">
                     <Link
                       className="btn btn-primary"
-                      href="https://goo.gl/maps/xiJDBADyzw9kuZ1p8"
+                      to={`https://goo.gl/maps/xiJDBADyzw9kuZ1p8`}
+                      title={`Location`}
                     >
                       Directions
                     </Link>

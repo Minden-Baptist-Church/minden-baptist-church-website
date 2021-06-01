@@ -112,7 +112,7 @@ const Ministries = () => {
                     Jesus.
                   </p>
                   <p>
-                    <Link href="/valley-kidz">
+                    <Link to={`/valley-kidz/`} title={`Valley Kidz`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -143,7 +143,7 @@ const Ministries = () => {
                     creatively, physically and socially.
                   </p>
                   <p>
-                    <Link href="/musicplay">
+                    <Link to={`/musicplay/`} title={`MusicPlay`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -174,7 +174,7 @@ const Ministries = () => {
                     you as a woman of God.
                   </p>
                   <p>
-                    <Link href="/valley-women">
+                    <Link to={`/valley-women/`} title={`Valley Women`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
