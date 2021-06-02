@@ -28,13 +28,13 @@ export default function Home() {
                 >
                   <strong>Come Along</strong>
                 </Link>
-                <Link
+                <a
                   className="watch-online text-uppercase font-weight-bold"
-                  to={`https://live.mindenbaptist.org/`}
+                  href={`https://live.mindenbaptist.org/`}
                   title={`Online`}
                 >
                   <strong>Watch Online</strong>
-                </Link>
+                </a>
               </div>
             </div>
           </section>
@@ -87,13 +87,13 @@ export default function Home() {
                     Can't make it to Minden this Sunday? Join with us Online
                     instead!
                   </p>
-                  <Link
+                  <a
                     className="btn btn-primary mt-4 mb-5 mb-md-0"
-                    to={`https://live.mindenbaptist.org/`}
+                    href={`https://live.mindenbaptist.org/`}
                     title={`Online`}
                   >
                     Watch
-                  </Link>
+                  </a>
                 </div>
               </div>
             </div>
@@ -109,13 +109,13 @@ export default function Home() {
                     engaging, relevant and challenging messages.
                   </p>
                   <p className="mt-5 mt-sm-4">
-                    <Link
+                    <a
                       className="btn btn-primary"
-                      to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos`}
+                      href={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA/videos`}
                       title={`YouTube`}
                     >
                       Listen
-                    </Link>
+                    </a>
                   </p>
                 </div>
                 <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">

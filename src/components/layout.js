@@ -81,70 +81,70 @@ const Layout = ({ children }) => {
                   </Link>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link text-uppercase font-weight-bold"
-                    to={`https://live.mindenbaptist.org/`}
+                    href={`https://live.mindenbaptist.org/`}
                     title={`Online`}
                   >
                     Online
-                  </Link>
+                  </a>
                 </li>
                 <li className="nav-item">
-                  <Link
+                  <a
                     className="nav-link text-uppercase font-weight-bold"
-                    to={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
+                    href={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
                     title={`Tithe`}
                   >
                     Tithe
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
             <ul className="navbar-nav col-2 justify-content-end d-none d-md-flex">
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to={`https://www.facebook.com/mindenbaptistchurch`}
+                  href={`https://www.facebook.com/mindenbaptistchurch`}
                   title={`Facebook`}
                 >
                   <FontAwesomeIcon icon={faFacebook} size="1x" />
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
+                  href={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
                   title={`YouTube`}
                 >
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to={`https://www.instagram.com/valleyyouth/`}
+                  href={`https://www.instagram.com/valleyyouth/`}
                   title={`Instagram`}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
-                </Link>
+                </a>
               </li>
               <li className="nav-item">
-                <Link
+                <a
                   className="nav-link"
-                  to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                  href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                   title={`Location`}
                 >
                   <FontAwesomeIcon icon={faMapMarker} size="1x" />
-                </Link>
+                </a>
               </li>
               <li>
-                <Link
+                <a
                   className="nav-link"
-                  to={`mailto:office@mindenbaptist.org`}
+                  href={`mailto:office@mindenbaptist.org`}
                   title={`Email`}
                 >
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
-                </Link>
+                </a>
               </li>
             </ul>
           </nav>
@@ -182,17 +182,17 @@ const Layout = ({ children }) => {
                   </Link>
                 </li>
                 <li>
-                  <Link to={`https://live.mindenbaptist.org/`} title={`Online`}>
+                  <a href={`https://live.mindenbaptist.org/`} title={`Online`}>
                     Online
-                  </Link>
+                  </a>
                 </li>
                 <li>
-                  <Link
-                    to={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
+                  <a
+                    href={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
                     title={`Tithe`}
                   >
                     Tithe
-                  </Link>
+                  </a>
                 </li>
               </ul>
             </div>
@@ -219,41 +219,41 @@ const Layout = ({ children }) => {
           <div className="row mt-4">
             <div className="col text-center">
               <p className="lead">
-                <Link
-                  to={`https://www.facebook.com/mindenbaptistchurch`}
+                <a
+                  href={`https://www.facebook.com/mindenbaptistchurch`}
                   className="mx-2 link"
                   title={`Facebook`}
                 >
                   <FontAwesomeIcon icon={faFacebook} size="1x" />
-                </Link>
-                <Link
-                  to={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
+                </a>
+                <a
+                  href={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
                   className="mx-2 link"
                   title={`YouTube`}
                 >
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
-                </Link>
-                <Link
-                  to={`https://www.instagram.com/valleyyouth/`}
+                </a>
+                <a
+                  href={`https://www.instagram.com/valleyyouth/`}
                   className="mx-2 link"
                   title={`Instagram`}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
-                </Link>
-                <Link
-                  to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                </a>
+                <a
+                  href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                   className="mx-2 link"
                   title={`Location`}
                 >
                   <FontAwesomeIcon icon={faMapMarker} size="1x" />
-                </Link>
-                <Link
-                  to={`mailto:office@mindenbaptist.org`}
+                </a>
+                <a
+                  href={`mailto:office@mindenbaptist.org`}
                   className="mx-2 link"
                   title={`Email`}
                 >
                   <FontAwesomeIcon icon={faEnvelope} size="1x" />
-                </Link>
+                </a>
               </p>
               <p className="paragraph-text">
               <div>Copyright © 2021 Minden Baptist Church.</div>

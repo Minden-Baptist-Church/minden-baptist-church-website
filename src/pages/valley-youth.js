@@ -1,7 +1,5 @@
 import * as React from "react"
 
-import { Link } from "gatsby"
-
 import Layout from "../components/layout"
 import Notice from "../components/notice"
 import Seo from "../components/seo"
@@ -108,13 +106,13 @@ const ValleyYouth = () => {
                 <div className="col-12 col-md-8 text-center">
                   <h1>So come on down and have a great time!</h1>
                   <p className="mt-5">
-                    <Link
+                    <a
                       className="btn btn-primary"
-                      to={`https://goo.gl/maps/xiJDBADyzw9kuZ1p8`}
+                      href={`https://goo.gl/maps/xiJDBADyzw9kuZ1p8`}
                       title={`Location`}
                     >
                       Directions
-                    </Link>
+                    </a>
                   </p>
                 </div>
               </div>

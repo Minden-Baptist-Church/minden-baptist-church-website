@@ -34,14 +34,14 @@ const Services = () => {
                     4311, Australia
                   </h3>
                   <div>
-                    <Link
+                    <a
                       id="get-directions"
                       className="text-uppercase font-weight-bold"
-                      to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                      href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                       title={`Location`}
                     >
                       <strong>Get Directions</strong>
-                    </Link>
+                    </a>
                     <Link
                       id="about-us"
                       className="text-uppercase font-weight-bold"
@@ -92,13 +92,13 @@ const Services = () => {
                       <p>
                         Locate your way to Minden Baptist Church this Sunday.
                       </p>
-                      <Link
+                      <a
                         className="text-uppercase font-weight-bold"
-                        to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                        href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                         title={`Location`}
                       >
                         <strong>Directions</strong>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -121,13 +121,13 @@ const Services = () => {
                       <p>
                         Plentiful on-site free parking close to the auditorium.
                       </p>
-                      <Link
+                      <a
                         className="text-uppercase font-weight-bold"
-                        to={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
+                        href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                         title={`Location`}
                       >
                         <strong>View</strong>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -259,13 +259,13 @@ const Services = () => {
                       <p>
                         Can't make it this Sunday? Feel free to watch online!
                       </p>
-                      <Link
+                      <a
                         className="text-uppercase font-weight-bold"
-                        to={`https://live.mindenbaptist.org/`}
+                        href={`https://live.mindenbaptist.org/`}
                         title={`Online`}
                       >
                         <strong>Watch</strong>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -286,13 +286,13 @@ const Services = () => {
                         <strong>Podcasts</strong>
                       </h3>
                       <p>Catch up or revisit the sermons online.</p>
-                      <Link
+                      <a
                         className="text-uppercase font-weight-bold"
-                        to={`https://anchor.fm/minden-baptist-church`}
+                        href={`https://anchor.fm/minden-baptist-church`}
                         title={`Podcasts`}
                       >
                         <strong>Listen</strong>
-                      </Link>
+                      </a>
                     </div>
                   </div>
                 </div>
