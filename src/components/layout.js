@@ -210,7 +210,7 @@ const Layout = ({ children }) => {
                 <div>Queensland, 4311 Australia</div>
               </p>
               <p className="paragraph-text">  
-                <div>Senior Pastor Bruce Eckersley: +61 413 616 370</div>
+                <div>Senior Pastor Bruce Eckersley: +61 427 560 884</div>
                 <div>bruce@mindenbaptist.org</div>
               </p>
             </div>
