@@ -147,11 +147,11 @@ const Ministries = () => {
                     along the way, to minister, encourage, to love and honour
                     you as a woman of God.
                   </p>
-                  <p>
+                  {/* <p>
                     <Link to={`/mb-women/`} title={`MB Women`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
-                  </p>
+                  </p> */}
                 </div>
               </div>
             </div>
