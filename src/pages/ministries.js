@@ -45,14 +45,14 @@ const Ministries = () => {
 
                 <div className="col-12 col-md-5 m-md-auto">
                   <h2>
-                    <strong>Valley Life</strong>
+                    <strong>MB Young Adults</strong>
                   </h2>
                   <p className="lead">
-                    Valley Life endeavours to help Young Adults traverse the gap
+                  MB Young Adults endeavours to help Young Adults traverse the gap
                     between living daily life and living for good and for God!
                   </p>
                   <p>
-                    <Link href="/valley-life">
+                    <Link href="/mb-young-adults">
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -61,27 +61,21 @@ const Ministries = () => {
 
               <div className="row text-left align-items-center pt-5 pb-md-5">
                 <div className="col-4 col-md-5 m-md-auto order-md-5">
-                  <StaticImage
-                    quality={80}
-                    placeholder="blurred"
-                    alt="valley youth"
-                    className="img-fluid"
-                    src="../../static/vylogo.svg"
-                  />
+                  
                 </div>
 
                 <div className="col-12 col-md-5">
                   <h2>
-                    <strong>Valley Youth</strong>
+                    <strong>MB Youth</strong>
                   </h2>
                   <p className="lead">
                     We are a community of young people that meet together as
                     often as possible. Our main time that we all come together
-                    is at VY IGNITE on Friday night's from 7-9pm. This is held
+                    is at MB Youth on Friday night's from 7-9pm. This is held
                     in our air-conditioned back hall at Minden Baptist Church.
                   </p>
                   <p>
-                    <Link href="/valley-youth">
+                    <Link href="/mb-youth">
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -90,29 +84,23 @@ const Ministries = () => {
 
               <div className="row text-left align-items-center pt-5">
                 <div className="col-4 col-md-5">
-                  <StaticImage
-                    quality={80}
-                    placeholder="blurred"
-                    alt="valley kids"
-                    className="img-fluid"
-                    src="../../static/valleykidz.svg"
-                  />
+
                 </div>
 
                 <div className="col-12 col-md-5 m-md-auto">
                   <h2>
-                    <strong>Valley Kids</strong>
+                    <strong>MB Kids</strong>
                   </h2>
                   <p className="lead">
-                    Valley Kidz is a kids’ zone for those in Kindy to Grade 6.
+                    MB Kids is a kids’ zone for those in Kindy to Grade 6.
                     It seeks to allow kids to engage with God and encourage them
-                    to become true disciples of Jesus. Valley Kidz is a safe and
+                    to become true disciples of Jesus. MB Kids is a safe and
                     fully supervised environment, resourced by a committed team
                     of leaders who love kids and desire to see them grow in
                     Jesus.
                   </p>
                   <p>
-                    <Link to={`/valley-kidz/`} title={`Valley Kidz`}>
+                    <Link to={`/mb-kids/`} title={`Valley Kidz`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -152,21 +140,15 @@ const Ministries = () => {
 
               <div className="row text-left align-items-center pt-5">
                 <div className="col-4 col-md-5">
-                  <StaticImage
-                    quality={80}
-                    placeholder="blurred"
-                    alt="mb women"
-                    className="img-fluid"
-                    src="../../static/mbwomen.svg"
-                  />
+
                 </div>
 
                 <div className="col-12 col-md-5 m-md-auto">
                   <h2>
-                    <strong>Valley Women</strong>
+                    <strong>MB Women</strong>
                   </h2>
                   <p className="lead">
-                    At Valley Women, our hope is for you to be blessed as you
+                    At MB Women, our hope is for you to be blessed as you
                     become one with us as we fellowship in Jesus precious name.
                     As women, our roles vary across each generation; as we plan
                     for our time together, we hope to meet you wherever you are
@@ -174,7 +156,7 @@ const Ministries = () => {
                     you as a woman of God.
                   </p>
                   <p>
-                    <Link to={`/valley-women/`} title={`Valley Women`}>
+                    <Link to={`/valley-women/`} title={`MB Women`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>

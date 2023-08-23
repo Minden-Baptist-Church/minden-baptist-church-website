@@ -30,7 +30,7 @@ export default function Home() {
                 </Link>
                 <a
                   className="watch-online text-uppercase font-weight-bold"
-                  href={`https://live.mindenbaptist.org/`}
+                  href={`https://www.youtube.com/@mindenbaptistchurch/streams`}
                   title={`Online`}
                 >
                   <strong>Watch Online</strong>

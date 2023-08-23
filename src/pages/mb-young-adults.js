@@ -9,12 +9,12 @@ const ValleyLife = () => {
     <>
       <div id="header-background">
         <Layout>
-          <Seo title="Valley Life" />
+          <Seo title="MB Young Adults" />
           <div id="header"></div>
           <section id="hero">
             <div className="hero-container mx-auto">
               <h1>
-                <strong>Valley Life</strong>
+                <strong>MB Young Adults</strong>
               </h1>
               <h2>
                 Traverse the gap between living daily life and living for good
@@ -27,7 +27,7 @@ const ValleyLife = () => {
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col col-md-8 text-center">
-                  <h1>About Valley Life!</h1>
+                  <h1>About MB Young Adults!</h1>
                   <p className="lead">
                     We are all about building strong relationships and
                     encouraging one another as we journey through our lives. Our
@@ -69,7 +69,7 @@ const ValleyLife = () => {
                   <p className="lead">
                     We strongly believe that to live a flourishing life, the way
                     life was designed to be, we must live in community. One of
-                    our purposes is to relate! At Valley Life we endeavour to
+                    our purposes is to relate! At MB Young Adults we endeavour to
                     help young adults traverse the gap between living a Godly
                     life and living day to day. Living life alone is really
                     hard! Living life together is less hard and much more
@@ -105,7 +105,7 @@ const ValleyLife = () => {
               <div className="row justify-content-center">
                 <div className="col-12 col-md-8 text-center">
                   <h1>
-                    If you would like to join Valley Life, please don't hesitate
+                    If you would like to join MB Young Adults, please don't hesitate
                     to visit our Church!
                   </h1>
                   <p className="mt-5">
