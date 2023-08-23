@@ -1,7 +1,6 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const MusicPlay = () => {
@@ -18,7 +17,6 @@ const MusicPlay = () => {
               </h1>
             </div>
           </section>
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row justify-content-center">

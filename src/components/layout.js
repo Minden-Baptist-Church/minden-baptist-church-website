@@ -83,13 +83,13 @@ const Layout = ({ children }) => {
                 <li className="nav-item">
                   <a
                     className="nav-link text-uppercase font-weight-bold"
-                    href={`https://live.mindenbaptist.org/`}
+                    href={`https://www.youtube.com/@mindenbaptistchurch/streams`}
                     title={`Online`}
                   >
                     Online
                   </a>
                 </li>
-                <li className="nav-item">
+                {/* <li className="nav-item">
                   <a
                     className="nav-link text-uppercase font-weight-bold"
                     href={`https://www.paypal.com/donate/?token=BM1n9-nwXwHflt5KsnIa3e93XzTHF7pMp3ldIsTYnGAJBtMrCr_rkhpHt5P2TPywxQpFPm&country.x=AU&locale.x=AU`}
@@ -97,7 +97,7 @@ const Layout = ({ children }) => {
                   >
                     Tithe
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             <ul className="navbar-nav col-2 justify-content-end d-none d-md-flex">
@@ -119,7 +119,7 @@ const Layout = ({ children }) => {
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </a>
               </li>
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link"
                   href={`https://www.instagram.com/valleyyouth/`}
@@ -127,7 +127,7 @@ const Layout = ({ children }) => {
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
                 </a>
-              </li>
+              </li> */}
               <li className="nav-item">
                 <a
                   className="nav-link"
@@ -182,7 +182,7 @@ const Layout = ({ children }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href={`https://live.mindenbaptist.org/`} title={`Online`}>
+                  <a href={`https://www.youtube.com/@mindenbaptistchurch/streams`} title={`Online`}>
                     Online
                   </a>
                 </li>
@@ -209,7 +209,7 @@ const Layout = ({ children }) => {
                 <div>978 Lowood-Minden Road Minden,</div>
                 <div>Queensland, 4311 Australia</div>
               </p>
-              <p className="paragraph-text">  
+              <p className="paragraph-text">
                 <div>Senior Pastor Bruce Eckersley: +61 427 560 884</div>
                 <div>bruce@mindenbaptist.org</div>
               </p>
@@ -233,13 +233,13 @@ const Layout = ({ children }) => {
                 >
                   <FontAwesomeIcon icon={faYoutube} size="1x" />
                 </a>
-                <a
+                {/* <a
                   href={`https://www.instagram.com/valleyyouth/`}
                   className="mx-2 link"
                   title={`Instagram`}
                 >
                   <FontAwesomeIcon icon={faInstagram} size="1x" />
-                </a>
+                </a> */}
                 <a
                   href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                   className="mx-2 link"
@@ -256,8 +256,8 @@ const Layout = ({ children }) => {
                 </a>
               </p>
               <p className="paragraph-text">
-              <div>Copyright © 2021 Minden Baptist Church.</div>
-              <div>All Rights Reserved.</div>
+                <div>Copyright © 2021 Minden Baptist Church.</div>
+                <div>All Rights Reserved.</div>
               </p>
               <div>
                 <button className="return" onClick={handleClick}>

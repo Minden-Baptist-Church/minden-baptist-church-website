@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const Ministries = () => {
@@ -22,7 +21,6 @@ const Ministries = () => {
               <h2>Minden's Outreach Programs</h2>
             </div>
           </section>
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row justify-content-center pb-5">
@@ -34,13 +32,7 @@ const Ministries = () => {
 
               <div className="row text-left align-items-center pt-5 pb-md-5">
                 <div className="col-4 col-md-5">
-                  <StaticImage
-                    quality={80}
-                    placeholder="blurred"
-                    alt="reach"
-                    className="img-fluid"
-                    src="../../static/vreach.svg"
-                  />
+
                 </div>
 
                 <div className="col-12 col-md-5 m-md-auto">
@@ -48,7 +40,7 @@ const Ministries = () => {
                     <strong>MB Young Adults</strong>
                   </h2>
                   <p className="lead">
-                  MB Young Adults endeavours to help Young Adults traverse the gap
+                    MB Young Adults endeavours to help Young Adults traverse the gap
                     between living daily life and living for good and for God!
                   </p>
                   <p>
@@ -61,7 +53,7 @@ const Ministries = () => {
 
               <div className="row text-left align-items-center pt-5 pb-md-5">
                 <div className="col-4 col-md-5 m-md-auto order-md-5">
-                  
+
                 </div>
 
                 <div className="col-12 col-md-5">
@@ -100,7 +92,7 @@ const Ministries = () => {
                     Jesus.
                   </p>
                   <p>
-                    <Link to={`/mb-kids/`} title={`Valley Kidz`}>
+                    <Link to={`/mb-kids/`} title={`MB Kids`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>
@@ -156,7 +148,7 @@ const Ministries = () => {
                     you as a woman of God.
                   </p>
                   <p>
-                    <Link to={`/valley-women/`} title={`MB Women`}>
+                    <Link to={`/mb-women/`} title={`MB Women`}>
                       Learn More <i className="fa fa-angle-right"></i>
                     </Link>
                   </p>

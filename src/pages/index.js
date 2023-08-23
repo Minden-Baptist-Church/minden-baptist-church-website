@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 export default function Home() {
@@ -38,8 +37,6 @@ export default function Home() {
               </div>
             </div>
           </section>
-
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row align-items-center">
@@ -89,7 +86,7 @@ export default function Home() {
                   </p>
                   <a
                     className="btn btn-primary mt-4 mb-5 mb-md-0"
-                    href={`https://live.mindenbaptist.org/`}
+                    href={`https://www.youtube.com/@mindenbaptistchurch/streams`}
                     title={`Online`}
                   >
                     Watch

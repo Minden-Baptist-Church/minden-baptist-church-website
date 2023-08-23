@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const Services = () => {
@@ -22,8 +21,6 @@ const Services = () => {
               <h2>Join us this Sunday from 9:30AM | 978 Lowood-Minden Road</h2>
             </div>
           </section>
-
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row align-items-center">
@@ -150,69 +147,15 @@ const Services = () => {
                       <p>
                         A Parents Room is accessible from the main auditorium.
                       </p>
-                      <Link
-                        className="text-uppercase font-weight-bold"
-                        to={`/valley-kidz/`}
-                        title={`Valley Kidz`}
-                      >
-                        <strong>Parents</strong>
-                      </Link>
                     </div>
                   </div>
                 </div>
               </div>
 
               <div className="row text-left pt-3 pt-sm-4 pt-md-5">
-                <div className="col-12 col-md-4">
-                  <div className="row">
-                    <div className="col-3">
-                      <StaticImage
-                        quality={80}
-                        placeholder="blurred"
-                        alt="virtual reality"
-                        className="img-fluid"
-                        src="../../static/virtual-reality.svg"
-                      />
-                    </div>
-                    <div className="col-9">
-                      <h3>
-                        <strong>Virtual Tour</strong>
-                      </h3>
-                      <p>Explore our Church Building from home in 360°</p>
-                      <Link className="text-uppercase font-weight-bold" to={`/services/`} title={`Services`}>
-                        <strong>Explore</strong>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
-                  <div className="row">
-                    <div className="col-3">
-                      <StaticImage
-                        quality={80}
-                        placeholder="blurred"
-                        alt="wheelchair"
-                        className="img-fluid"
-                        src="../../static/wheelchair.svg"
-                      />
-                    </div>
-                    <div className="col-9">
-                      <h3>
-                        <strong>Wheelchair Accessible</strong>
-                      </h3>
-                      <p>
-                        The auditorium and outside areas are wheelchair
-                        accessible.
-                      </p>
-                      <Link className="text-uppercase font-weight-bold" to={`/services/`} title={`Services`}>
-                        <strong>How we Care</strong>
-                      </Link>
-                    </div>
-                  </div>
-                </div>
 
-                <div className="col-12 col-md-4 pt-3 pt-sm-4 pt-md-0">
+                <div className="col-12 col-md-4 pt-3 pt-sm-6 pt-md-5">
                   <div className="row">
                     <div className="col-3">
                       <StaticImage
@@ -232,8 +175,8 @@ const Services = () => {
                       </p>
                       <Link
                         className="text-uppercase font-weight-bold"
-                        to={`/valley-kidz/`}
-                        title={`Valley Kidz`}
+                        to={`/mb-kids/`}
+                        title={`MB Kids`}
                       >
                         <strong>Learn More</strong>
                       </Link>
@@ -261,7 +204,7 @@ const Services = () => {
                       </p>
                       <a
                         className="text-uppercase font-weight-bold"
-                        href={`https://live.mindenbaptist.org/`}
+                        href={`https://www.youtube.com/@mindenbaptistchurch/streams`}
                         title={`Online`}
                       >
                         <strong>Watch</strong>
@@ -270,32 +213,6 @@ const Services = () => {
                   </div>
                 </div>
 
-                <div className="col-12 col-md-4 pt-3 pt-sm-6 pt-md-5">
-                  <div className="row">
-                    <div className="col-3">
-                      <StaticImage
-                        quality={80}
-                        placeholder="blurred"
-                        alt="headphones"
-                        className="img-fluid"
-                        src="../../static/headphones2.svg"
-                      />
-                    </div>
-                    <div className="col-9">
-                      <h3>
-                        <strong>Podcasts</strong>
-                      </h3>
-                      <p>Catch up or revisit the sermons online.</p>
-                      <a
-                        className="text-uppercase font-weight-bold"
-                        href={`https://anchor.fm/minden-baptist-church`}
-                        title={`Podcasts`}
-                      >
-                        <strong>Listen</strong>
-                      </a>
-                    </div>
-                  </div>
-                </div>
 
                 <div className="col-12 col-md-4 pt-3 pt-sm-6 pt-md-5">
                   <div className="row">

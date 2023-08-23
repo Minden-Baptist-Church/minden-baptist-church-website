@@ -3,7 +3,6 @@ import * as React from "react"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const ValleyKidz = () => {
@@ -24,29 +23,28 @@ const ValleyKidz = () => {
               </h2>
             </div>
           </section>
-          <Notice />
           <section className="fdb-block">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-12 col-md-6 col-lg-5">
-                <h1>About MB Kids</h1>
-                <p className="lead">
-                  MB Kids is a kids’ zone for those in Kindy to Grade 6. It
-                  seeks to allow kids to engage with God and encourage them to
-                  become true disciples of Jesus.
-                </p>
-              </div>
-              <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
-                <StaticImage
-                  quality={80}
-                  placeholder="blurred"
-                  alt="whats in the bible"
-                  className="img-fluid"
-                  src="../../static/whats-in-the-bible.jpg"
-                />
+            <div className="container">
+              <div className="row align-items-center">
+                <div className="col-12 col-md-6 col-lg-5">
+                  <h1>About MB Kids</h1>
+                  <p className="lead">
+                    MB Kids is a kids’ zone for those in Kindy to Grade 6. It
+                    seeks to allow kids to engage with God and encourage them to
+                    become true disciples of Jesus.
+                  </p>
+                </div>
+                <div className="col-12 col-md-6 ml-md-auto mt-4 mt-md-0">
+                  <StaticImage
+                    quality={80}
+                    placeholder="blurred"
+                    alt="whats in the bible"
+                    className="img-fluid"
+                    src="../../static/whats-in-the-bible.jpg"
+                  />
+                </div>
               </div>
             </div>
-          </div>
           </section>
 
           <section className="fdb-block">

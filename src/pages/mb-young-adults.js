@@ -1,7 +1,6 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const ValleyLife = () => {
@@ -22,7 +21,6 @@ const ValleyLife = () => {
               </h2>
             </div>
           </section>
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row justify-content-center">

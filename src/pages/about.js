@@ -4,7 +4,6 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const About = () => {
@@ -22,8 +21,6 @@ const About = () => {
               <h2>Learn more about Minden Baptist Church</h2>
             </div>
           </section>
-
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row justify-content-center">

@@ -1,7 +1,6 @@
 import * as React from "react"
 
 import Layout from "../components/layout"
-import Notice from "../components/notice"
 import Seo from "../components/seo"
 
 const ValleyYouth = () => {
@@ -9,42 +8,30 @@ const ValleyYouth = () => {
     <>
       <div id="header-background">
         <Layout>
-          <Seo title="Valley Youth" />
+          <Seo title="MB Youth" />
 
           <div id="header"></div>
           <section id="hero">
             <div className="hero-container mx-auto">
               <h1>
-                <strong>Valley Youth</strong>
+                <strong>MB Youth</strong>
               </h1>
               <h2>Join us on Friday Nights from 7-9PM</h2>
             </div>
           </section>
-          <Notice />
           <section className="fdb-block">
             <div className="container">
               <div className="row justify-content-center">
                 <div className="col col-md-8 text-center">
-                  <h1>About Valley Youth!</h1>
+                  <h1>About MB Youth!</h1>
                   <p className="lead">
-                    Valley Youth is expanding and to be more effective in
-                    ministering to the different needs of youth. Recently we
-                    have decided to introduce two groups: VY IGNITE and VY
-                    WILDFIRE. Our Mission Statement is:
+                    MB Youth is expanding and to be more effective in
+                    ministering to the different needs of youth.
                   </p>
                   <p className="lead">
                     One Community - One Truth - One Mission.
                   </p>
                 </div>
-                <iframe
-                  title="Valley Youth Video"
-                  width="1120"
-                  height="630"
-                  src="https://www.youtube.com/embed/ffb45jL9W_k"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen
-                ></iframe>
               </div>
             </div>
           </section>
@@ -56,7 +43,7 @@ const ValleyYouth = () => {
                   <h1>One Community</h1>
                   <p className="lead">
                     We believe that every person is important and that everyone
-                    is welcome whether you believe in Jesus or not. Valley Youth
+                    is welcome whether you believe in Jesus or not. MB Youth
                     is a safe place where we aim to extend God's love to all
                     youth by showing equality to all youth as Christ commanded.
                     "Love your neighbour as yourself" - Matthew 22:39
