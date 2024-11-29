@@ -2,16 +2,7 @@ import React from "react"
 
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
-
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-
-import { faEnvelope, faMapMarker } from "@fortawesome/free-solid-svg-icons"
-
-import {
-  faFacebook,
-  faYoutube,
-  faInstagram,
-} from "@fortawesome/free-brands-svg-icons"
+import { Facebook, Mail, MapPin, Youtube } from "lucide-react"
 
 const Layout = ({ children }) => {
   const handleClick = () => {
@@ -107,7 +98,7 @@ const Layout = ({ children }) => {
                   href={`https://www.facebook.com/mindenbaptistchurch`}
                   title={`Facebook`}
                 >
-                  <FontAwesomeIcon icon={faFacebook} size="1x" />
+                  <Facebook />
                 </a>
               </li>
               <li className="nav-item">
@@ -116,7 +107,7 @@ const Layout = ({ children }) => {
                   href={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
                   title={`YouTube`}
                 >
-                  <FontAwesomeIcon icon={faYoutube} size="1x" />
+                  <Youtube />
                 </a>
               </li>
               {/* <li className="nav-item">
@@ -134,7 +125,7 @@ const Layout = ({ children }) => {
                   href={`https://goo.gl/maps/A5SCdgxuEL3utUqT9`}
                   title={`Location`}
                 >
-                  <FontAwesomeIcon icon={faMapMarker} size="1x" />
+                  <MapPin />
                 </a>
               </li>
               <li>
@@ -143,7 +134,7 @@ const Layout = ({ children }) => {
                   href={`mailto:office@mindenbaptist.org`}
                   title={`Email`}
                 >
-                  <FontAwesomeIcon icon={faEnvelope} size="1x" />
+                  <Mail />
                 </a>
               </li>
             </ul>
@@ -182,7 +173,10 @@ const Layout = ({ children }) => {
                   </Link>
                 </li>
                 <li>
-                  <a href={`https://www.youtube.com/@mindenbaptistchurch/streams`} title={`Online`}>
+                  <a
+                    href={`https://www.youtube.com/@mindenbaptistchurch/streams`}
+                    title={`Online`}
+                  >
                     Online
                   </a>
                 </li>
@@ -210,7 +204,11 @@ const Layout = ({ children }) => {
                 <div>Queensland, 4311 Australia</div>
               </p>
               <p className="paragraph-text">
-                <div>For General enquiries, hall bookings etc. please email admin@mindenbaptist.org or call the Church Admin office number: 07 5210 6021</div>
+                <div>
+                  For General enquiries, hall bookings etc. please email
+                  admin@mindenbaptist.org or call the Church Admin office
+                  number: 07 5210 6021
+                </div>
               </p>
             </div>
           </div>
@@ -223,14 +221,14 @@ const Layout = ({ children }) => {
                   className="mx-2 link"
                   title={`Facebook`}
                 >
-                  <FontAwesomeIcon icon={faFacebook} size="1x" />
+                  <Facebook />
                 </a>
                 <a
                   href={`https://www.youtube.com/channel/UCG9cNMHHrNMCvkh1jc_FFRA`}
                   className="mx-2 link"
                   title={`YouTube`}
                 >
-                  <FontAwesomeIcon icon={faYoutube} size="1x" />
+                  <Youtube />
                 </a>
                 {/* <a
                   href={`https://www.instagram.com/valleyyouth/`}
@@ -244,14 +242,14 @@ const Layout = ({ children }) => {
                   className="mx-2 link"
                   title={`Location`}
                 >
-                  <FontAwesomeIcon icon={faMapMarker} size="1x" />
+                  <MapPin />
                 </a>
                 <a
                   href={`mailto:office@mindenbaptist.org`}
                   className="mx-2 link"
                   title={`Email`}
                 >
-                  <FontAwesomeIcon icon={faEnvelope} size="1x" />
+                  <Mail />
                 </a>
               </p>
               <p className="paragraph-text">
