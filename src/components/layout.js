@@ -210,8 +210,7 @@ const Layout = ({ children }) => {
                 <div>Queensland, 4311 Australia</div>
               </p>
               <p className="paragraph-text">
-                <div>Senior Pastor Bruce Eckersley: +61 427 560 884</div>
-                <div>bruce@mindenbaptist.org</div>
+                <div>For General enquiries, hall bookings etc. please email admin@mindenbaptist.org or call the Church Admin office number: 07 5210 6021</div>
               </p>
             </div>
           </div>
